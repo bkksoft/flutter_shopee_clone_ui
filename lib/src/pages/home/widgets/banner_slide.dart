@@ -25,12 +25,12 @@ class _BannerSectionState extends State<BannerSection> {
   final List<String> _imgList = [
     'assets/images/banner_1.jpg',
     'assets/images/banner_2.jpg',
-    'assets/images/banner_3.jpg',
-    'assets/images/banner_4.jpg',
-    'assets/images/banner_5.jpg',
-    'assets/images/banner_6.jpg',
-    'assets/images/banner_7.jpg',
-    'assets/images/banner_8.jpg',
+    // 'assets/images/banner_3.jpg',
+    // 'assets/images/banner_4.jpg',
+    // 'assets/images/banner_5.jpg',
+    // 'assets/images/banner_6.jpg',
+    // 'assets/images/banner_7.jpg',
+    // 'assets/images/banner_8.jpg',
   ];
 
   int _current;

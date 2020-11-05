@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopee_clone_ui/src/pages/home/widgets/banner_slide.dart';
+import 'package:flutter_shopee_clone_ui/src/pages/home/widgets/main_menu.dart';
 
 import 'header.dart';
 
@@ -22,10 +23,11 @@ class _HomeState extends State<Home> {
             child: Column(
               children: [
                 BannerSlide(),
+                // MainMenu(),
                 Container(
                   color: Colors.red,
                   child: Text("XXX"),
-                  // height: 1500,
+                  height: 1500,
                   width: double.infinity,
                 ),
               ],
