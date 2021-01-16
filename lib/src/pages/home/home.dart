@@ -22,12 +22,16 @@ class _HomeState extends State<Home> {
             controller: _scrollController,
             child: Column(
               children: [
-                BannerSlide(),
+                // BannerSlide(),
                 // MainMenu(),
                 Container(
+                  alignment: Alignment.center,
                   color: Colors.red,
-                  child: Text("XXX"),
-                  height: 1500,
+                  child: Text(
+                    "XXX asdad",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  height: 500,
                   width: double.infinity,
                 ),
               ],

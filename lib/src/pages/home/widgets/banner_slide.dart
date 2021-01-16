@@ -10,7 +10,7 @@ class BannerSlide extends StatelessWidget {
       alignment: Alignment.bottomCenter,
       children: [
         BannerSection(),
-        const CashInfo(),
+        CashInfo(),
       ],
     );
   }
