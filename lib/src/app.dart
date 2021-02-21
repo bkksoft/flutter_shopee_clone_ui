@@ -13,8 +13,7 @@ class App extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Home(),
+      locale: Locale('th', 'TH'),
     );
   }
 }
-
-

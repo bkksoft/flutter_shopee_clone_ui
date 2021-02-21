@@ -33,7 +33,6 @@ class _HeaderState extends State<Header> {
 
   @override
   Widget build(BuildContext context) {
-
     return Container(
       color: _backgroundColor,
       child: SafeArea(
@@ -97,7 +96,8 @@ class _HeaderState extends State<Header> {
     );
   }
 
-  _buildIconButton({VoidCallback onPressed, IconData icon, int notification = 0}) =>
+  _buildIconButton(
+          {VoidCallback onPressed, IconData icon, int notification = 0}) =>
       Stack(
         children: [
           IconButton(
